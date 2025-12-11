@@ -1,0 +1,151 @@
+<!-- 
+  NOTE: This is an HTML fragment. 
+  It does not need <html>, <head>, or <body> tags.
+  It will be injected directly into the main container.
+-->
+
+<div class="max-w-7xl mx-auto space-y-6">
+    <h1 class="text-3xl font-bold text-gray-900">Events</h1>
+    
+    <div class="border border-gray-200 rounded-md p-4 max-w-sm bg-white shadow-sm">
+      <h3 class="text-sm font-bold text-gray-900 mb-2">Using API Client:</h3>
+      <div class="bg-gray-50 p-2 rounded flex justify-between items-center border border-gray-200">
+        <code class="text-sm text-gray-800 font-mono">client.get_statuses()</code>
+        <div class="flex gap-2">
+          <button class="text-gray-500 hover:text-gray-900 transition-colors" title="Copy">
+            <i data-lucide="copy" class="w-4 h-4"></i>
+          </button>
+          <button class="text-gray-500 hover:text-gray-900 transition-colors" title="Info">
+            <i data-lucide="info" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white border border-gray-200 rounded-md shadow-sm">
+      
+      <div class="p-4 flex justify-between items-center border-b border-gray-100">
+         <span class="text-xs text-gray-500 bg-gray-50 px-2 py-1 rounded border border-gray-200 flex items-center gap-1.5">
+            <i data-lucide="filter" class="w-3 h-3"></i>
+            Click on a value to filter by it
+         </span>
+         <span class="text-xs text-gray-500 bg-gray-50 px-2 py-1 rounded border border-gray-200 flex items-center gap-1.5">
+            <i data-lucide="clock" class="w-3 h-3"></i>
+            Table updated: <span class="font-mono text-gray-700">14:52:52</span>
+         </span>
+      </div>
+      
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-sm whitespace-nowrap">
+          <thead class="bg-gray-50 border-b border-gray-200">
+            <tr>
+              <th class="px-6 py-3 font-bold text-gray-500 flex items-center gap-1">
+                  Timestamp
+                  <i data-lucide="arrow-down" class="w-3 h-3 opacity-60"></i>
+              </th>
+              <th class="px-6 py-3 font-bold text-gray-500">Sender</th>
+              <th class="px-6 py-3 font-bold text-gray-500">Role</th>
+              <th class="px-6 py-3 font-bold text-gray-500">Status</th>
+              <th class="px-6 py-3 font-bold text-gray-500">Type</th>
+              <th class="px-6 py-3 font-bold text-gray-500">Log level</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+            <tr class="hover:bg-gray-50 transition-colors">
+              <td class="px-6 py-3 text-gray-900 font-mono text-xs">2025-07-21 16:26:19</td>
+              <td class="px-6 py-3" title="collaborativelearningdemoaml-okp-fedn0">
+                  <a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">collaborativel...</a>
+              </td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">COMBINER</a></td>
+              <td class="px-6 py-3 text-gray-900">Client Swedbank disconnected from TaskStream.</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">NETWORK</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">INFO</a></td>
+            </tr>
+            
+            <tr class="hover:bg-gray-50 transition-colors">
+              <td class="px-6 py-3 text-gray-900 font-mono text-xs">2025-07-21 16:26:18</td>
+              <td class="px-6 py-3" title="collaborativelearningdemoaml-okp-fedn0">
+                  <a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">collaborativel...</a>
+              </td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">COMBINER</a></td>
+              <td class="px-6 py-3 text-gray-900">Client Handelsbanken disconnected from TaskStream.</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">NETWORK</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">INFO</a></td>
+            </tr>
+
+            <tr class="hover:bg-gray-50 transition-colors">
+              <td class="px-6 py-3 text-gray-900 font-mono text-xs">2025-07-21 16:23:52</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">Swedbank</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">CLIENT</a></td>
+              <td class="px-6 py-3 text-gray-900">Model validation completed.</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">MODEL_VALIDATION</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">AUDIT</a></td>
+            </tr>
+
+            <tr class="hover:bg-gray-50 transition-colors">
+              <td class="px-6 py-3 text-gray-900 font-mono text-xs">2025-07-21 16:23:52</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">Handelsbanken</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">CLIENT</a></td>
+              <td class="px-6 py-3 text-gray-900">Model validation completed.</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">MODEL_VALIDATION</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">AUDIT</a></td>
+            </tr>
+
+            <tr class="hover:bg-gray-50 transition-colors">
+              <td class="px-6 py-3 text-gray-900 font-mono text-xs">2025-07-21 16:23:49</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">Handelsbanken</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">CLIENT</a></td>
+              <td class="px-6 py-3 text-gray-900">Processing validate request for model_id 42ce4205-f6c1...</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">MODEL_VALIDATION</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">INFO</a></td>
+            </tr>
+
+             <tr class="hover:bg-gray-50 transition-colors">
+              <td class="px-6 py-3 text-gray-900 font-mono text-xs">2025-07-21 16:23:49</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">Swedbank</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">CLIENT</a></td>
+              <td class="px-6 py-3 text-gray-900">Processing validate request for model_id 42ce4205-f6c1...</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">MODEL_VALIDATION</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">INFO</a></td>
+            </tr>
+
+            <tr class="hover:bg-gray-50 transition-colors">
+              <td class="px-6 py-3 text-gray-900 font-mono text-xs">2025-07-21 16:23:49</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">Swedbank</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">CLIENT</a></td>
+              <td class="px-6 py-3 text-gray-900">Received request from combiner.</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">MODEL_VALIDATION</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">AUDIT</a></td>
+            </tr>
+
+             <tr class="hover:bg-gray-50 transition-colors">
+              <td class="px-6 py-3 text-gray-900 font-mono text-xs">2025-07-21 16:23:49</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">Handelsbanken</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">CLIENT</a></td>
+              <td class="px-6 py-3 text-gray-900">Received request from combiner.</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">MODEL_VALIDATION</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">AUDIT</a></td>
+            </tr>
+
+            <tr class="hover:bg-gray-50 transition-colors">
+              <td class="px-6 py-3 text-gray-900 font-mono text-xs">2025-07-21 16:23:46</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">Swedbank</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">CLIENT</a></td>
+              <td class="px-6 py-3 text-gray-900">Model update completed.</td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">MODEL_UPDATE</a></td>
+              <td class="px-6 py-3"><a href="#" class="text-gray-600 hover:text-blue-600 underline decoration-dotted underline-offset-2">AUDIT</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="px-6 py-4 flex justify-between items-center text-sm border-t border-gray-200">
+          <span class="text-gray-500">Showing 1-9 of 124 events</span>
+          <div class="flex gap-2">
+              <button class="px-3 py-1 border border-gray-200 rounded text-gray-400 cursor-not-allowed hover:bg-gray-50" disabled>Previous</button>
+              <button class="px-3 py-1 border border-gray-200 rounded text-gray-600 hover:bg-gray-100 hover:text-gray-900">Next</button>
+          </div>
+      </div>
+
+    </div>
+  </div>
