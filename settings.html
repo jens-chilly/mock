@@ -1,0 +1,81 @@
+<!-- 
+  NOTE: This is an HTML fragment. 
+  It does not need <html>, <head>, or <body> tags.
+  It will be injected directly into the main container.
+-->
+
+<div class="max-w-4xl mx-auto space-y-6">
+    <div>
+        <h1 class="text-3xl font-bold text-gray-900 mb-2">Settings</h1>
+        <p class="text-gray-500 mb-8">Manage your project settings and generate access tokens.</p>
+    </div>
+    
+    <div class="space-y-6">
+      
+      <div class="bg-white border border-gray-200 rounded-lg shadow-sm">
+        <div class="p-6">
+          <h2 class="text-xl font-semibold text-gray-900 mb-4">Active project</h2>
+          <div class="space-y-3 text-sm">
+            <div class="flex">
+              <span class="w-28 text-gray-500">Name:</span>
+              <span class="font-medium text-gray-900">FEDnExample</span>
+            </div>
+            <div class="flex">
+              <span class="w-28 text-gray-500">Owner:</span>
+              <span class="font-medium text-gray-900">Scaleout</span>
+            </div>
+            <div class="flex">
+              <span class="w-28 text-gray-500">Created:</span>
+              <span class="font-medium text-gray-900">2023-05-12 14:30 UTC</span>
+            </div>
+            <div class="flex items-center">
+              <span class="w-28 text-gray-500">Project URL:</span>
+              <div class="flex-1 flex items-center border border-gray-200 rounded-md bg-gray-50">
+                <input class="flex-1 bg-transparent p-2 text-sm outline-none text-gray-700" readonly="" type="text" value="api.scaleoutsystems.com/fednexample-reducer"/>
+                <button class="p-2 text-gray-400 hover:text-gray-900 transition-colors" title="Copy URL">
+                  <i data-lucide="copy" class="w-4 h-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white border border-gray-200 rounded-lg shadow-sm">
+        <div class="p-6 flex items-center justify-between">
+          <div>
+            <h2 class="text-xl font-semibold text-gray-900">Collaborators</h2>
+            <p class="text-gray-500 mt-1 text-sm">Handle access to your project by adding or removing collaborators.</p>
+          </div>
+          <button class="bg-gray-900 text-white font-medium px-4 py-2 rounded-md hover:bg-gray-800 transition-colors text-sm shadow-sm">
+            Manage
+          </button>
+        </div>
+      </div>
+      
+      <div class="bg-white border border-gray-200 rounded-lg shadow-sm">
+        <div class="p-6 flex items-center justify-between">
+          <div>
+            <h2 class="text-xl font-semibold text-gray-900">Generate admin token</h2>
+            <p class="text-gray-500 mt-1 text-sm">Use this token to authenticate when using the FEDn API client.</p>
+          </div>
+          <button class="bg-gray-900 text-white font-medium px-4 py-2 rounded-md hover:bg-gray-800 transition-colors text-sm shadow-sm">
+            Generate
+          </button>
+        </div>
+      </div>
+      
+      <div class="bg-white border border-gray-200 rounded-lg shadow-sm">
+        <div class="p-6 flex items-center justify-between">
+          <div>
+            <h2 class="text-xl font-semibold text-gray-900">Generate client token</h2>
+            <p class="text-gray-500 mt-1 text-sm">Use this token to connect a client to the FEDn network.</p>
+          </div>
+          <button class="bg-gray-900 text-white font-medium px-4 py-2 rounded-md hover:bg-gray-800 transition-colors text-sm shadow-sm">
+            Generate
+          </button>
+        </div>
+      </div>
+      
+    </div>
+</div>
